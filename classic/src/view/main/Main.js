@@ -81,14 +81,13 @@ Ext.define('MyApp.view.main.Main', {
       // The following grid shares a store with the classic version's grid as well!
       items: [
         {
-          xtype: 'Extra',
+          xtype: 'mainlist',
         },
       ],
     },
     {
       title: 'Users',
       iconCls: 'fa-user',
-      //   xtype: 'Extra',
       bind: {
         html: '{loremIpsum}',
       },
